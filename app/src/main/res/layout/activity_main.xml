@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:src="@drawable/logo_image" />
+        <!-- Replace logo_image with your image resource name -->
+
+        <Button
+            android:id="@+id/latestPostsButton"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/ic_launcher_background"
+            android:text="LATEST POSTS" />
+
+        <Button
+            android:id="@+id/problemsButton"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/ic_launcher_background"
+            android:text="PROBLEMS" />
+
+        <Button
+            android:id="@+id/newsAndEventsButton"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/ic_launcher_background"
+            android:text="NEWS AND EVENTS" />
+
+        <Button
+            android:id="@+id/donationsButton"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/ic_launcher_background"
+            android:text="DONATIONS" />
+
+        <Button
+            android:id="@+id/successStoriesButton"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/ic_launcher_background"
+            android:text="SUCCESS STORIES" />
+
+        <Button
+            android:id="@+id/findLocationsButton"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/ic_launcher_background"
+            android:text="FIND LOCATIONS" />
+
+        <Button
+            android:id="@+id/aboutUsButton"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/ic_launcher_background"
+            android:text="ABOUT US" />
+
+        <Button
+            android:id="@+id/contactUsButton"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/ic_launcher_background"
+            android:text="CONTACT US" />
+
+    </LinearLayout>
+
+</ScrollView>
